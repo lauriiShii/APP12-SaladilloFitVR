@@ -1,0 +1,94 @@
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\ApplicationInsights.config
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\SaladilloFitVR.dll.config
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\SaladilloFitVR.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\SaladilloFitVR.pdb
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Antlr3.Runtime.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.Web.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.ApplicationInsights.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Newtonsoft.Json.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Helpers.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Mvc.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Optimization.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Razor.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\WebGrease.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Newtonsoft.Json.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Helpers.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Mvc.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Optimization.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Razor.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Antlr3.Runtime.pdb
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.ApplicationInsights.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.Web.xml
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\obj\Debug\SaladilloFitVR.csproj.CoreCompileInputs.cache
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\obj\Debug\SaladilloFitVR.dll
+C:\Proyectos\SaladilloFitVRWebAPI\SaladilloFitVR\SaladilloFitVR\obj\Debug\SaladilloFitVR.pdb
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\ApplicationInsights.config
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\SaladilloFitVR.dll.config
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\SaladilloFitVR.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\SaladilloFitVR.pdb
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Antlr3.Runtime.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.Web.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Newtonsoft.Json.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Net.Http.Formatting.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Helpers.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.WebHost.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Mvc.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Optimization.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Razor.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Razor.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\WebGrease.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Newtonsoft.Json.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Net.Http.Formatting.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Helpers.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Http.WebHost.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Mvc.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Optimization.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.Razor.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\System.Web.WebPages.Razor.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Antlr3.Runtime.pdb
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\bin\Microsoft.AI.Web.xml
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\obj\Debug\SaladilloFitVR.csproj.CoreCompileInputs.cache
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\obj\Debug\SaladilloFitVR.dll
+C:\Users\eclip\Desktop\UNITY\REPOSITORIOS\APP12-SaladilloFitVR\Web API\SaladilloFitVR\SaladilloFitVR\obj\Debug\SaladilloFitVR.pdb
