@@ -12,31 +12,32 @@ using UnityEngine.UI;
 
 public class ButtonGazeClick : MonoBehaviour {
 
-    #region Declaracion de variables
-
+    #region Variables
     // Tiempo que tardara en activarse el temporizador
     public float activationTime = 3f;
     // Indica si el puntero esta sobre el objeto
     private bool isHover = false;
     // Indica si la accion se ha realizado
     private bool executed = false;
-
     #endregion
 
-    #region Metodos
-	
-	// Update is called once per frame
-	void Update () {
-        // Si el usuario esta mirando el objeto y el temporizador
-        // ha terminado de contrar o si el usuario esta mirando el 
-        // objeto y pulsa el boton fire1 del mando y la accion aun
-        // no se ha ejecutado, realizaremos la accion correspondiente
+    #region Métodos
+    /// <summary>
+    /// Gestiona las acciones del puntero cuando se mira a un objeto.
+    /// </summary>
+    /// <remarks>
+    /// Si el usuario esta mirando el objeto y el temporizador
+    /// ha terminado de contar, o si el usuario esta mirando el 
+    /// objeto y pulsa el boton fire1 del mando y la accion aun
+    /// no se ha ejecutado, realizaremos la accion correspondiente.
+    /// </remarks>
+    void Update () {
         if ((isHover && CustomPointerTimer.CPT.ended && !executed) ||
             (isHover && Input.GetButtonDown("Fire1") && !executed))
         {
-            // Se indicaa que se ha realizado la accion
+            // Se indica que se ha realizado la acción
             executed = true;
-            // Desactivaremos el contadoe de tiempo del cursor, para
+            // Desactivaremos el contador de tiempo del cursor, para
             // evitar que se quede bloqueado
             CustomPointerTimer.CPT.StopCounting();
             // Se invoca el click del boton
@@ -44,9 +45,8 @@ public class ButtonGazeClick : MonoBehaviour {
         }
     }
 
-
     /// <summary>
-    /// Metodo que llamaremos desde el EventTrigger PointerEnter
+    /// Método que llamaremos desde el EventTrigger PointerEnter.
     /// </summary>
     public void StartHover()
     {
@@ -54,12 +54,12 @@ public class ButtonGazeClick : MonoBehaviour {
         isHover = true;
         // Marcamos la accion como no realizada
         executed = false;
-        // Iniciamos el contador del puntero, indicandole el tiempo de activacion
+        // Iniciamos el contador del puntero, indicandole el tiempo de activación
         CustomPointerTimer.CPT.StartCounting(activationTime);
     }
 
     /// <summary>
-    /// Metodo que llamaremos desde el EventTrigger PointerExit
+    /// Método que llamaremos desde el EventTrigger PointerExit.
     /// </summary>
     public void EndHover()
     {
@@ -68,7 +68,6 @@ public class ButtonGazeClick : MonoBehaviour {
         // Reiniciamos el contador del puntero
         CustomPointerTimer.CPT.StopCounting();
     }
-
     #endregion
 
 }

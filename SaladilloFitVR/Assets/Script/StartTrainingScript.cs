@@ -36,7 +36,8 @@ public class StartTrainingScript : MonoBehaviour
         form.AddField("dni", GameManager.dni);
         form.AddField("training", GameManager.training);
 
-        // Crea la peticion a la WebAPI
+        // using (UnityWebRequest www = UnityWebRequest.Post(
+        // Uri.EscapeUriString(string.Format(GameManager.WEB_API_LOG_TRAINING, GameManager.ipAdress)), form))
         using (UnityWebRequest www = UnityWebRequest.Post(
             Uri.EscapeUriString(string.Format(GameManager.WEB_API_LOG_TRAINING_LOCAL, GameManager.localhost)), form))
         {

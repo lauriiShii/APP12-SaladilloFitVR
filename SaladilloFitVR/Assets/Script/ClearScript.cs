@@ -13,16 +13,13 @@ using UnityEngine.UI;
 public class ClearScript : MonoBehaviour {
 
     #region Variables
-
     // Objeto con la direccion IP instroducida por el usuario
     public Text ipAddress;
-
     #endregion
 
     #region Métodos
-
     /// <summary>
-    /// Metodo que se ejecuta cuando se pulsa en el boton
+    /// Métodos que se ejecuta cuando se pulsa en el boton.
     /// </summary>
     /// <remarks>
     /// Borra todo el texto de ipAddress
@@ -31,7 +28,6 @@ public class ClearScript : MonoBehaviour {
     {
         ipAddress.GetComponent<Text>().text = "";
     }
-
     #endregion
 
 }

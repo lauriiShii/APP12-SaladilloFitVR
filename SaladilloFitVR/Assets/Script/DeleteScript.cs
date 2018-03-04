@@ -13,19 +13,16 @@ using UnityEngine.UI;
 public class DeleteScript : MonoBehaviour {
 
     #region Variables
-
     // Objeto con la direccion IP introducida por el usuario
     public Text ipAddress;
-
     #endregion
 
     #region Métodos
-
     /// <summary>
-    /// Metodo que se ejecuta cuando se pulsa en el boton
+    /// Método que se ejecuta cuando se pulsa en este boton.
     /// </summary>
     /// <remarks>
-    /// Borra todo el texto de ipAddress
+    /// Borra el último caracter del texto de ipAdress
     /// </remarks>
     public void Click()
     {
@@ -36,7 +33,6 @@ public class DeleteScript : MonoBehaviour {
             ipAddress.GetComponent<Text>().text = texto.Substring(0, texto.Length - 1);
         }
     }
-
     #endregion
 
 }

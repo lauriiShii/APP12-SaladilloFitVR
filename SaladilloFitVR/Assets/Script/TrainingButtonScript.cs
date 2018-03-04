@@ -15,11 +15,11 @@ using UnityEngine.UI;
 public class TrainingButtonScript : MonoBehaviour {
 
     #region Variables
-    // Entero que corresponde con el numero del entrenamiento
+    // Entero que corresponde con el número del entrenamiento
     public int training;
     // Texto donde vamos a mostrar el detalle del entrenamiento
     public GameObject trainingItem;
-    // Texto donde vamos a mostrar el titulo de los detalles
+    // Texto donde vamos a mostrar el título de los detalles
     public GameObject detail;
     #endregion
 
@@ -34,19 +34,37 @@ public class TrainingButtonScript : MonoBehaviour {
     }
 
     /// <summary>
-    /// Guarda la informacion del cliente
+    /// Guarda la informacion del cliente.
     /// </summary>
     /// <remarks>
-    /// Llama a la corrutina que conecta con la WebAPI para guardar la informacion
+    /// Llama a la corrutina que conecta con la WebAPI para guardar la información.
     /// </remarks>
     private void LogButton()
     {
         StartCoroutine(LogTrainingtWebAPI());
     }
 
+    /// <summary>
+    /// Cuando se hace click en un boton de entrenamiento carga los ejercicios que se hacen en esa sesión.
+    /// </summary>
+    /// <remarks>
+    /// 
+    /// Destruye a todos los hijos del "panel" Detail  y se hace visible para cargar los 
+    /// itemtrainings que son textos como sus hijos, estos mostraran los ejercicios que 
+    /// se realizaran en este entrenamiento.
+    /// 
+    /// Cada itemTraining que es introducido es posicionado y reescalado para que sea totalmente leible.
+    /// 
+    /// Encima de los itemTraining hay una especie de cabecera que indica el entrenamiento que estamos viendo.
+    /// 
+    /// Cuando se hace click en el boton del entrenamiento se almacena en Game Manager qué entrenamiento se ha elegido.
+    /// 
+    /// </remarks>
+    /// <returns>Devuelve el control a Unity</returns>
     IEnumerator LogTrainingtWebAPI()
     {
-        // Preparamos la peticion a la webAPI
+        // using (UnityWebRequest www = UnityWebRequest.Get(
+        // Uri.EscapeUriString(string.Format(GameManager.WEB_API_GET_TRAINING, GameManager.ipAdress, training))))
         using (UnityWebRequest www = UnityWebRequest.Get(
             Uri.EscapeUriString(string.Format(GameManager.WEB_API_GET_TRAINING_LOCAL, GameManager.localhost, training))))
         {

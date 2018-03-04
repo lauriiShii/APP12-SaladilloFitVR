@@ -15,7 +15,6 @@ using UnityEngine.UI;
 public class LoginText : MonoBehaviour {
 
     #region Variables
-
     // Texto donde esta escrito el DNI
     public Text dni;
     // Botones de los ejercicios
@@ -24,17 +23,14 @@ public class LoginText : MonoBehaviour {
     public GameObject details;
     // Mensaje de bienvenida
     public Text welcome;
-
-
     #endregion
 
     #region Métodos
-
     /// <summary>
-    /// Comprueba si existe conexion con la Web API y alamacena el dni en Game Manager.
+    /// Comprueba si existe conexión con la Web API y alamacena el dni en Game Manager.
     /// </summary>
     /// <remarks>
-    /// Llamar a la corrutina CheckConnectivityWebAPI para comprobar la conexion
+    /// Llamar a la corrutina CheckConnectivityWebAPI para comprobar la conexión.
     /// </remarks>
     public void Click()
     {
@@ -42,9 +38,23 @@ public class LoginText : MonoBehaviour {
         StartCoroutine(LoginWebAPI());
     }
 
+    /// <summary>
+    /// Según la respuesta de la Web API habilita o deshabilita cientos paneles.
+    /// </summary>
+    /// <remarks>
+    /// 
+    /// Si existe la respuesta se le da la bien venida al cliente y se activan los paneles
+    /// de trainings y details, se almacena tambien el nombre en el Game Manager.
+    /// 
+    /// Sino se da la bien venida generica y se desactivan los dos paneles. 
+    /// En el Game Manager se guardaria una cadena vacia como nombre.
+    /// 
+    /// </remarks>
+    /// <returns>Devuelve el control a Unity</returns>
     IEnumerator LoginWebAPI()
     {
-        // Prepara la peticion a la web api
+        // using (UnityWebRequest www = UnityWebRequest.Get(
+        // Uri.EscapeUriString(string.Format(GameManager.WEB_API_GET_CLIENT, GameManager.ipAdress, GameManager.dni))))
         using (UnityWebRequest www = UnityWebRequest.Get(
             Uri.EscapeUriString(string.Format(GameManager.WEB_API_GET_CLIENT_LOCAL, GameManager.localhost, GameManager.dni))))
         {
@@ -68,7 +78,6 @@ public class LoginText : MonoBehaviour {
             }
         }
     }
-
     #endregion
 
 }

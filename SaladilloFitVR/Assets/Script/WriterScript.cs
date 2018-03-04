@@ -22,10 +22,10 @@ public class WriterScript : MonoBehaviour {
     #region Métodos
 
     /// <summary>
-    /// Metodo que se ejecuta cuando se pulsa en el boton
+    /// Método que se ejecuta cuando se pulsa en el boton.
     /// </summary>
     /// <remarks>
-    /// Obtiene el texto del boton y se lo concatena al texto de ipAddress
+    /// Obtiene el texto del boton y se lo concatena al texto de ipAddress.
     /// </remarks>
     public void Click()
     {

@@ -14,7 +14,6 @@ public class CustomPointerTimer : MonoBehaviour
 {
 
     #region Variables
-
     // Objeto compartido por todos los scripts
     public static CustomPointerTimer CPT;
     // Tiempo por defecto que vamos a tener que esperar para que el contador se rellene
@@ -29,12 +28,14 @@ public class CustomPointerTimer : MonoBehaviour
     // Indica si ha llegado al final
     [HideInInspector]
     public bool ended = false;
-
     #endregion
 
     #region Métodos
-
-    // Use this for initialization(Se invoca antes que el start)
+    /// <summary>
+    /// Este método es invocado antes del Start.
+    /// Si no existe el CustomPointerTimer se crea y se obtiene la
+    /// imagen del reloj que vamos a pintar poco a poco cuando miremos a un objeto.
+    /// </summary>
     private void Awake()
     {
         if (CPT == null)
@@ -44,22 +45,23 @@ public class CustomPointerTimer : MonoBehaviour
         }
         // Se obtiene la imagen del reloj
         image = GetComponentInChildren<Image>();
-
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Se incrementa una porcion de la imagen que simula el temporizador,
+    /// este incremento se rellena de uodate a update. 
+    /// De esta manera se tiene un control real independiente de las caracteristicas
+    /// de la máquina.
+    /// </summary>
     void Update()
     {
         if (counting)
         {
-            //Se incrementa el temporizador la porcion de tiempo
-            // que ha tardado em rederizar el ultimo update. De esta
-            //manera se tiene un control de tiempo real independientemente
-            // de las carsteriticas de maquina
+            //Se incrementa en el temporizador la porcion de tiempo
+            // que ha tardado em rederizar el ultimo update.
             timer += Time.deltaTime;
             // Se rellena la imagem la cantidad proporcional al temporizador
             image.fillAmount = timer / timeToWait;
-
         }
         else
         {   // se reinicia el temporizador
@@ -76,7 +78,7 @@ public class CustomPointerTimer : MonoBehaviour
     }
 
     /// <summary>
-    /// Inicia el temporizador, utilizando el tiempo indicado	como parametro
+    /// Inicia el temporizador, utilizando el tiempo indicado como parametro.
     /// </summary>
     /// <param name="time"></param>
     public void StartCounting(float time)
@@ -94,7 +96,6 @@ public class CustomPointerTimer : MonoBehaviour
         counting = false;
         ended = true;
     }
-
     #endregion
 
 }

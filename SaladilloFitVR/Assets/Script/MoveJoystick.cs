@@ -12,25 +12,26 @@ using UnityEngine;
 public class MoveJoystick : MonoBehaviour {
 
     #region Variables
-
     // Velocidad maxima de desplazamiento
     public float maxSpeed = 0.5f;
     // La fuerza de empuje
     public float pushForce = 10f;
     // Referencia al rigidbody qe queremos mover
     public Rigidbody rigidbody;
-
     #endregion
 
     #region Métodos
-
-    // Use this for initialization
+    /// <summary>
+    /// Se instancia el rigibody
+    /// </summary>
     void Awake () {
         // Recuperamos la referencia al componente Rigidbody
         rigidbody = GetComponent<Rigidbody>();
 	}
 	
-	// Update is called once per frame
+	/// <summary>
+    /// Se establece el movimiento vertical y horizontal.
+    /// </summary>
 	void FixedUpdate () {
         // Recuperamos el valor de los ejes horizontal y vertical
         // Son valores normalizados que van de 0 a 1
@@ -48,7 +49,6 @@ public class MoveJoystick : MonoBehaviour {
         }
 
 	}
-
     #endregion
 
 }
